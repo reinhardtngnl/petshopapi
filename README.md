@@ -1,6 +1,7 @@
 # Petstore API Automation
 
 Playwright API tests for the Swagger Petstore demo API. The tests use the API base URL configured in `.env` and share the pet ID/name defined there.
+Use the a `.env.example` file in the project root. And rename it to .env 
 
 ## Requirements
 
@@ -14,8 +15,6 @@ From the project root, install the locked dependencies:
 ```sh
 npm ci
 ```
-
-Use the a `.env.example` file in the project root. And rename it to .env 
 
 ## Run tests
 
